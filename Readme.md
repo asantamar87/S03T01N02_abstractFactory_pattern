@@ -16,10 +16,28 @@ All components—agenda, addresses, and phone numbers—are created using the **
 
 
 ## 🏗️ Project Structure
-
-
-![Captura de pantalla 2025-06-05 a las 12.43.45.png](..%2F..%2F..%2F..%2F..%2F..%2Fvar%2Ffolders%2Fw1%2Flsgtn8350wz3jzzs18jrt9vr0000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_HEAiRB%2FCaptura%20de%20pantalla%202025-06-05%20a%20las%2012.43.45.png)
----
+```
+📁 java/
+┗ 📁 abstractfactory/
+┗ 📁 patterns/
+┗ 📁 aldo/
+┣ 📁 address/
+┃ ┣ 📄 Address.java
+┃ ┣ 📄 FrenchAddress.java
+┃ ┗ 📄 USAddress.java
+┣ 📁 factory/
+┃ ┣ 📄 ContactFactory.java
+┃ ┣ 📄 FranceContactFactory.java
+┃ ┗ 📄 USContactFactory.java
+┣ 📁 model/
+┃ ┣ 📄 Agenda.java
+┃ ┗ 📄 Contact.java
+┣ 📁 phone/
+┃ ┣ 📄 PhoneNumber.java
+┃ ┣ 📄 FrenchPhoneNumber.java
+┃ ┗ 📄 USPhoneNumber.java
+┗ 📄 Main.java
+```
 
 ## 🔧 Technologies
 
